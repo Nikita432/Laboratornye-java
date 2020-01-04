@@ -33,6 +33,8 @@ public class MainFrame extends JFrame {
     private GraphicsDisplay display = new GraphicsDisplay();
     // Флаг, указывающий на загруженность данных графика
     private boolean fileLoaded = false;
+
+
     public MainFrame() {
 // Вызов конструктора предка Frame
         super("Построение графиков функций на основе заранее подготовленных файлов");

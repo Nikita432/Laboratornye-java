@@ -1,6 +1,4 @@
 
-
-
 package com.company;
 
 import java.awt.BorderLayout;
@@ -335,6 +333,7 @@ public class MainFrame extends JFrame {
 // так как мы файл создаѐм, а не открываем для чтения
         }
     }
+
 
     protected void saveToTextFile(File selectedFile) {
         try {
